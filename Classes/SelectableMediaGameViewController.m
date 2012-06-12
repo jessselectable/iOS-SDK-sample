@@ -45,6 +45,8 @@
 // Hiding "MORE LIVES" button in case user already watched all videos for today.
 -(void)videosForUser {
     // Call To Action - to make sure we have videos available
+    // In this case we don't do that call
+    /*
 	NSString *url = [NSString stringWithFormat:@"http://ads.sele.co/v1/videos_for/%@/on/iOS_Developer_5138_5053.json",
 					 [[UIDevice currentDevice] uniqueIdentifier]];
 
@@ -56,6 +58,7 @@
 	NSDictionary *dictionary = [jsonResult JSONValue];
 
 	if ([[dictionary objectForKey:@"videos"] boolValue])
+     */
 		videosAvailable = TRUE;
 }
 
