@@ -38,7 +38,6 @@
 		AC000ED21587BCCE00591A7F /* SoundOffIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC000EBB1587BCCE00591A7F /* SoundOffIcon.png */; };
 		AC000ED41587BCDE00591A7F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC000ED31587BCDE00591A7F /* MediaPlayer.framework */; };
 		AC000ED61587BCEB00591A7F /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC000ED51587BCEB00591A7F /* Twitter.framework */; };
-		AC000EDC1587DD0300591A7F /* libSelectableMedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC000EDB1587DD0300591A7F /* libSelectableMedia.a */; };
 		AC1AD488139D3AFD008B2FA1 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = AC1AD481139D3AFD008B2FA1 /* orange.png */; };
 		AC1AD489139D3AFD008B2FA1 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = AC1AD482139D3AFD008B2FA1 /* red.png */; };
 		AC1AD48A139D3AFD008B2FA1 /* reset_button.png in Resources */ = {isa = PBXBuildFile; fileRef = AC1AD483139D3AFD008B2FA1 /* reset_button.png */; };
@@ -117,6 +116,7 @@
 		AC4FB7A113B8D294001182C8 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4FB79413B8D294001182C8 /* SBJsonUTF8Stream.m */; };
 		AC4FB7A213B8D294001182C8 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4FB79613B8D294001182C8 /* SBJsonWriter.m */; };
 		ACE5122A1496BBC0004F554E /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACE512291496BBC0004F554E /* MainWindow-iPad.xib */; };
+		ACEDD3381588D0D400CF01A1 /* libSelectableMedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEDD3371588D0D400CF01A1 /* libSelectableMedia.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -161,7 +161,6 @@
 		AC000EBB1587BCCE00591A7F /* SoundOffIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SoundOffIcon.png; sourceTree = "<group>"; };
 		AC000ED31587BCDE00591A7F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		AC000ED51587BCEB00591A7F /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
-		AC000EDB1587DD0300591A7F /* libSelectableMedia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSelectableMedia.a; sourceTree = "<group>"; };
 		AC1AD481139D3AFD008B2FA1 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
 		AC1AD482139D3AFD008B2FA1 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
 		AC1AD483139D3AFD008B2FA1 /* reset_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset_button.png; sourceTree = "<group>"; };
@@ -305,6 +304,7 @@
 		AC4FB79513B8D294001182C8 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		AC4FB79613B8D294001182C8 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		ACE512291496BBC0004F554E /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		ACEDD3371588D0D400CF01A1 /* libSelectableMedia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSelectableMedia.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,7 +322,7 @@
 				AC1AD534139D3CA7008B2FA1 /* OpenAL.framework in Frameworks */,
 				AC1AD538139D3CB0008B2FA1 /* AVFoundation.framework in Frameworks */,
 				AC1AD53C139D3CB6008B2FA1 /* AudioToolbox.framework in Frameworks */,
-				AC000EDC1587DD0300591A7F /* libSelectableMedia.a in Frameworks */,
+				ACEDD3381588D0D400CF01A1 /* libSelectableMedia.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +355,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				AC000EDB1587DD0300591A7F /* libSelectableMedia.a */,
+				ACEDD3371588D0D400CF01A1 /* libSelectableMedia.a */,
 				AC000E9D1587BCCE00591A7F /* selectable_media_ios_sdk */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
