@@ -15,7 +15,7 @@ Make sure the `Twitter.framework` is included in our project.
 
 2) Implement SmSymbiontDelegate
 
-The controller that will display the Ad Selector must implement SmSymbiontDelegate. First import "SelectableMedia.h" in contoller header:
+The controller that will display the Ad Selector must implement SmSymbiontDelegate. First import "SelectableMedia.h" in controller header:
 	#import "SelectableMedia.h"
 	
 Add SmSymbiontDelegate to protocol list:
@@ -47,7 +47,7 @@ When the user presses the call to action, display the ad selector:
 	[symbiont presentModalAdSelectorWithParentController:self animated:YES];
     
 5) Update YOURAPP-Info.plist
-    To URL Schemes add: fb183027671727997iosexample
+    Add "URL Types", then select Item 0, then add "URL Schemes" then set Item 0 to "fb183027671727997iosexample"
 
 6) Add application:openURL:sourceApplication:annotation:
     BOOL wasHandled = [symbiont openURL:sourceApplication:annotation:];

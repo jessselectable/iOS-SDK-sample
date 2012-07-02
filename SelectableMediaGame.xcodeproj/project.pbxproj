@@ -115,8 +115,8 @@
 		AC4FB7A013B8D294001182C8 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4FB79213B8D294001182C8 /* SBJsonTokeniser.m */; };
 		AC4FB7A113B8D294001182C8 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4FB79413B8D294001182C8 /* SBJsonUTF8Stream.m */; };
 		AC4FB7A213B8D294001182C8 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4FB79613B8D294001182C8 /* SBJsonWriter.m */; };
+		AC6C16001593DFC000637635 /* libSelectableMedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6C15FF1593DFC000637635 /* libSelectableMedia.a */; };
 		ACE5122A1496BBC0004F554E /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACE512291496BBC0004F554E /* MainWindow-iPad.xib */; };
-		ACEDD3381588D0D400CF01A1 /* libSelectableMedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEDD3371588D0D400CF01A1 /* libSelectableMedia.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -303,8 +303,8 @@
 		AC4FB79413B8D294001182C8 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
 		AC4FB79513B8D294001182C8 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		AC4FB79613B8D294001182C8 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		AC6C15FF1593DFC000637635 /* libSelectableMedia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSelectableMedia.a; sourceTree = "<group>"; };
 		ACE512291496BBC0004F554E /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
-		ACEDD3371588D0D400CF01A1 /* libSelectableMedia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSelectableMedia.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,7 +322,7 @@
 				AC1AD534139D3CA7008B2FA1 /* OpenAL.framework in Frameworks */,
 				AC1AD538139D3CB0008B2FA1 /* AVFoundation.framework in Frameworks */,
 				AC1AD53C139D3CB6008B2FA1 /* AudioToolbox.framework in Frameworks */,
-				ACEDD3381588D0D400CF01A1 /* libSelectableMedia.a in Frameworks */,
+				AC6C16001593DFC000637635 /* libSelectableMedia.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +355,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				ACEDD3371588D0D400CF01A1 /* libSelectableMedia.a */,
+				AC6C15FF1593DFC000637635 /* libSelectableMedia.a */,
 				AC000E9D1587BCCE00591A7F /* selectable_media_ios_sdk */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -780,8 +780,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos4.3]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Moreno (JBVXKP7F7W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos4.3]" = "iPhone Developer: David Moreno (JBVXKP7F7W)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -796,6 +796,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = SelectableMediaGame;
+				PROVISIONING_PROFILE = "62B26A6B-9C4A-42D9-970C-987012FB0D2B";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -804,7 +805,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Moreno (JBVXKP7F7W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos4.3]" = "iPhone Developer: David Moreno (JBVXKP7F7W)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SelectableMediaGame_Prefix.pch;
@@ -817,6 +819,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = SelectableMediaGame;
+				PROVISIONING_PROFILE = "62B26A6B-9C4A-42D9-970C-987012FB0D2B";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -826,15 +829,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "Don't Code Sign";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos4.3]" = "Don't Code Sign";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Moreno (JBVXKP7F7W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos4.3]" = "iPhone Developer: David Moreno (JBVXKP7F7W)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos4.3]" = "";
+				PROVISIONING_PROFILE = "E4580458-D6D0-4D19-87AA-DFCE8E920728";
+				"PROVISIONING_PROFILE[sdk=iphoneos4.3]" = "E4580458-D6D0-4D19-87AA-DFCE8E920728";
 				SDKROOT = iphoneos;
 			};
 			name = Distribution;
@@ -843,7 +846,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Moreno (JBVXKP7F7W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos4.3]" = "iPhone Developer: David Moreno (JBVXKP7F7W)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SelectableMediaGame_Prefix.pch;
@@ -856,6 +860,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = SelectableMediaGame;
+				PROVISIONING_PROFILE = "62B26A6B-9C4A-42D9-970C-987012FB0D2B";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -865,12 +870,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos4.3]" = "Don't Code Sign";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Moreno (JBVXKP7F7W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos4.3]" = "iPhone Developer: David Moreno (JBVXKP7F7W)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				"PROVISIONING_PROFILE[sdk=iphoneos4.3]" = "";
+				PROVISIONING_PROFILE = "E4580458-D6D0-4D19-87AA-DFCE8E920728";
+				"PROVISIONING_PROFILE[sdk=iphoneos4.3]" = "E4580458-D6D0-4D19-87AA-DFCE8E920728";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -880,14 +887,14 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer: David Moreno (JBVXKP7F7W)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos4.3]" = "Don't Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos4.3]" = "iPhone Developer: David Moreno (JBVXKP7F7W)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "33C83F7B-B882-4526-81EB-9DE04FDEB5D1";
-				"PROVISIONING_PROFILE[sdk=iphoneos4.3]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos4.3]" = "E4580458-D6D0-4D19-87AA-DFCE8E920728";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
