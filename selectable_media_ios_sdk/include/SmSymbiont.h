@@ -10,7 +10,7 @@
 #import "SmSymbiontDelegate.h"
 #import "SmServerAPIDelegate.h"
 
-#define SM_SDK_VERSION @"1.0"
+#define SM_SDK_VERSION @"1.1.0"
 
 @class SmConfig;
 @class SmAdStore;

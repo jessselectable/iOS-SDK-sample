@@ -15,27 +15,6 @@
 		2899E5220DE3E06400AC0155 /* SelectableMediaGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SelectableMediaGameViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* SelectableMediaGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SelectableMediaGameViewController.m */; };
-		AC000EBE1587BCCE00591A7F /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = AC000EA61587BCCE00591A7F /* README.markdown */; };
-		AC000EBF1587BCCE00591A7F /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC000EA81587BCCE00591A7F /* FBDialog.bundle */; };
-		AC000EC01587BCCE00591A7F /* IconPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = AC000EA91587BCCE00591A7F /* IconPlaceholder.png */; };
-		AC000EC11587BCCE00591A7F /* LargePlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AC000EAA1587BCCE00591A7F /* LargePlayButton.png */; };
-		AC000EC21587BCCE00591A7F /* PauseIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC000EAB1587BCCE00591A7F /* PauseIcon.png */; };
-		AC000EC31587BCCE00591A7F /* PlayIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC000EAC1587BCCE00591A7F /* PlayIcon.png */; };
-		AC000EC41587BCCE00591A7F /* RewindIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC000EAD1587BCCE00591A7F /* RewindIcon.png */; };
-		AC000EC51587BCCE00591A7F /* SelectableMedia.png in Resources */ = {isa = PBXBuildFile; fileRef = AC000EAE1587BCCE00591A7F /* SelectableMedia.png */; };
-		AC000EC61587BCCE00591A7F /* ShareFacebook.png in Resources */ = {isa = PBXBuildFile; fileRef = AC000EAF1587BCCE00591A7F /* ShareFacebook.png */; };
-		AC000EC71587BCCE00591A7F /* ShareTwitter.png in Resources */ = {isa = PBXBuildFile; fileRef = AC000EB01587BCCE00591A7F /* ShareTwitter.png */; };
-		AC000EC81587BCCE00591A7F /* SmAdPlayerControllerView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC000EB11587BCCE00591A7F /* SmAdPlayerControllerView_iPad.xib */; };
-		AC000EC91587BCCE00591A7F /* SmAdPlayerControllerView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC000EB21587BCCE00591A7F /* SmAdPlayerControllerView_iPhone.xib */; };
-		AC000ECA1587BCCE00591A7F /* SmGoldIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC000EB31587BCCE00591A7F /* SmGoldIcon.png */; };
-		AC000ECB1587BCCE00591A7F /* SmLandingPageViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC000EB41587BCCE00591A7F /* SmLandingPageViewController_iPad.xib */; };
-		AC000ECC1587BCCE00591A7F /* SmLandingPageViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC000EB51587BCCE00591A7F /* SmLandingPageViewController_iPhone.xib */; };
-		AC000ECD1587BCCE00591A7F /* SmSoundOnIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC000EB61587BCCE00591A7F /* SmSoundOnIcon.png */; };
-		AC000ECE1587BCCE00591A7F /* SmUserSurveyViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC000EB71587BCCE00591A7F /* SmUserSurveyViewController_iPad.xib */; };
-		AC000ECF1587BCCE00591A7F /* SmUserSurveyViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC000EB81587BCCE00591A7F /* SmUserSurveyViewController_iPhone.xib */; };
-		AC000ED01587BCCE00591A7F /* SmVideoPlayerViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC000EB91587BCCE00591A7F /* SmVideoPlayerViewController_iPad.xib */; };
-		AC000ED11587BCCE00591A7F /* SmVideoPlayerViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC000EBA1587BCCE00591A7F /* SmVideoPlayerViewController_iPhone.xib */; };
-		AC000ED21587BCCE00591A7F /* SoundOffIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC000EBB1587BCCE00591A7F /* SoundOffIcon.png */; };
 		AC000ED41587BCDE00591A7F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC000ED31587BCDE00591A7F /* MediaPlayer.framework */; };
 		AC000ED61587BCEB00591A7F /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC000ED51587BCEB00591A7F /* Twitter.framework */; };
 		AC1AD488139D3AFD008B2FA1 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = AC1AD481139D3AFD008B2FA1 /* orange.png */; };
@@ -115,8 +94,29 @@
 		AC4FB7A013B8D294001182C8 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4FB79213B8D294001182C8 /* SBJsonTokeniser.m */; };
 		AC4FB7A113B8D294001182C8 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4FB79413B8D294001182C8 /* SBJsonUTF8Stream.m */; };
 		AC4FB7A213B8D294001182C8 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4FB79613B8D294001182C8 /* SBJsonWriter.m */; };
-		AC6C16001593DFC000637635 /* libSelectableMedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6C15FF1593DFC000637635 /* libSelectableMedia.a */; };
 		ACE5122A1496BBC0004F554E /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACE512291496BBC0004F554E /* MainWindow-iPad.xib */; };
+		C85F4F5B15A7761F00B8349C /* libSelectableMedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C85F4F4415A7761F00B8349C /* libSelectableMedia.a */; };
+		C85F4F5C15A7761F00B8349C /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F4515A7761F00B8349C /* README.markdown */; };
+		C85F4F5D15A7761F00B8349C /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F4715A7761F00B8349C /* FBDialog.bundle */; };
+		C85F4F5E15A7761F00B8349C /* IconPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F4815A7761F00B8349C /* IconPlaceholder.png */; };
+		C85F4F5F15A7761F00B8349C /* LargePlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F4915A7761F00B8349C /* LargePlayButton.png */; };
+		C85F4F6015A7761F00B8349C /* PauseIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F4A15A7761F00B8349C /* PauseIcon.png */; };
+		C85F4F6115A7761F00B8349C /* PlayIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F4B15A7761F00B8349C /* PlayIcon.png */; };
+		C85F4F6215A7761F00B8349C /* RewindIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F4C15A7761F00B8349C /* RewindIcon.png */; };
+		C85F4F6315A7761F00B8349C /* SelectableMedia.png in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F4D15A7761F00B8349C /* SelectableMedia.png */; };
+		C85F4F6415A7761F00B8349C /* ShareFacebook.png in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F4E15A7761F00B8349C /* ShareFacebook.png */; };
+		C85F4F6515A7761F00B8349C /* ShareTwitter.png in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F4F15A7761F00B8349C /* ShareTwitter.png */; };
+		C85F4F6615A7761F00B8349C /* SmAdPlayerControllerView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F5015A7761F00B8349C /* SmAdPlayerControllerView_iPad.xib */; };
+		C85F4F6715A7761F00B8349C /* SmAdPlayerControllerView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F5115A7761F00B8349C /* SmAdPlayerControllerView_iPhone.xib */; };
+		C85F4F6815A7761F00B8349C /* SmGoldIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F5215A7761F00B8349C /* SmGoldIcon.png */; };
+		C85F4F6915A7761F00B8349C /* SmLandingPageViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F5315A7761F00B8349C /* SmLandingPageViewController_iPad.xib */; };
+		C85F4F6A15A7761F00B8349C /* SmLandingPageViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F5415A7761F00B8349C /* SmLandingPageViewController_iPhone.xib */; };
+		C85F4F6B15A7761F00B8349C /* SmSoundOnIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F5515A7761F00B8349C /* SmSoundOnIcon.png */; };
+		C85F4F6C15A7761F00B8349C /* SmUserSurveyViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F5615A7761F00B8349C /* SmUserSurveyViewController_iPad.xib */; };
+		C85F4F6D15A7761F00B8349C /* SmUserSurveyViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F5715A7761F00B8349C /* SmUserSurveyViewController_iPhone.xib */; };
+		C85F4F6E15A7761F00B8349C /* SmVideoPlayerViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F5815A7761F00B8349C /* SmVideoPlayerViewController_iPad.xib */; };
+		C85F4F6F15A7761F00B8349C /* SmVideoPlayerViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F5915A7761F00B8349C /* SmVideoPlayerViewController_iPhone.xib */; };
+		C85F4F7015A7761F00B8349C /* SoundOffIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C85F4F5A15A7761F00B8349C /* SoundOffIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -133,32 +133,6 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* SelectableMediaGame_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectableMediaGame_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SelectableMediaGame-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SelectableMediaGame-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		AC000EA01587BCCE00591A7F /* SelectableMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectableMedia.h; sourceTree = "<group>"; };
-		AC000EA11587BCCE00591A7F /* SmConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmConfig.h; sourceTree = "<group>"; };
-		AC000EA21587BCCE00591A7F /* SmServerAPIDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmServerAPIDelegate.h; sourceTree = "<group>"; };
-		AC000EA31587BCCE00591A7F /* SmSymbiont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmSymbiont.h; sourceTree = "<group>"; };
-		AC000EA41587BCCE00591A7F /* SmSymbiontDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmSymbiontDelegate.h; sourceTree = "<group>"; };
-		AC000EA61587BCCE00591A7F /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
-		AC000EA81587BCCE00591A7F /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
-		AC000EA91587BCCE00591A7F /* IconPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconPlaceholder.png; sourceTree = "<group>"; };
-		AC000EAA1587BCCE00591A7F /* LargePlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LargePlayButton.png; sourceTree = "<group>"; };
-		AC000EAB1587BCCE00591A7F /* PauseIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseIcon.png; sourceTree = "<group>"; };
-		AC000EAC1587BCCE00591A7F /* PlayIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayIcon.png; sourceTree = "<group>"; };
-		AC000EAD1587BCCE00591A7F /* RewindIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RewindIcon.png; sourceTree = "<group>"; };
-		AC000EAE1587BCCE00591A7F /* SelectableMedia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SelectableMedia.png; sourceTree = "<group>"; };
-		AC000EAF1587BCCE00591A7F /* ShareFacebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShareFacebook.png; sourceTree = "<group>"; };
-		AC000EB01587BCCE00591A7F /* ShareTwitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShareTwitter.png; sourceTree = "<group>"; };
-		AC000EB11587BCCE00591A7F /* SmAdPlayerControllerView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmAdPlayerControllerView_iPad.xib; sourceTree = "<group>"; };
-		AC000EB21587BCCE00591A7F /* SmAdPlayerControllerView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmAdPlayerControllerView_iPhone.xib; sourceTree = "<group>"; };
-		AC000EB31587BCCE00591A7F /* SmGoldIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmGoldIcon.png; sourceTree = "<group>"; };
-		AC000EB41587BCCE00591A7F /* SmLandingPageViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmLandingPageViewController_iPad.xib; sourceTree = "<group>"; };
-		AC000EB51587BCCE00591A7F /* SmLandingPageViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmLandingPageViewController_iPhone.xib; sourceTree = "<group>"; };
-		AC000EB61587BCCE00591A7F /* SmSoundOnIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmSoundOnIcon.png; sourceTree = "<group>"; };
-		AC000EB71587BCCE00591A7F /* SmUserSurveyViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmUserSurveyViewController_iPad.xib; sourceTree = "<group>"; };
-		AC000EB81587BCCE00591A7F /* SmUserSurveyViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmUserSurveyViewController_iPhone.xib; sourceTree = "<group>"; };
-		AC000EB91587BCCE00591A7F /* SmVideoPlayerViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmVideoPlayerViewController_iPad.xib; sourceTree = "<group>"; };
-		AC000EBA1587BCCE00591A7F /* SmVideoPlayerViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmVideoPlayerViewController_iPhone.xib; sourceTree = "<group>"; };
-		AC000EBB1587BCCE00591A7F /* SoundOffIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SoundOffIcon.png; sourceTree = "<group>"; };
 		AC000ED31587BCDE00591A7F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		AC000ED51587BCEB00591A7F /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		AC1AD481139D3AFD008B2FA1 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
@@ -303,8 +277,34 @@
 		AC4FB79413B8D294001182C8 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
 		AC4FB79513B8D294001182C8 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		AC4FB79613B8D294001182C8 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		AC6C15FF1593DFC000637635 /* libSelectableMedia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSelectableMedia.a; sourceTree = "<group>"; };
 		ACE512291496BBC0004F554E /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		C85F4F3F15A7761F00B8349C /* SelectableMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectableMedia.h; sourceTree = "<group>"; };
+		C85F4F4015A7761F00B8349C /* SmConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmConfig.h; sourceTree = "<group>"; };
+		C85F4F4115A7761F00B8349C /* SmServerAPIDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmServerAPIDelegate.h; sourceTree = "<group>"; };
+		C85F4F4215A7761F00B8349C /* SmSymbiont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmSymbiont.h; sourceTree = "<group>"; };
+		C85F4F4315A7761F00B8349C /* SmSymbiontDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmSymbiontDelegate.h; sourceTree = "<group>"; };
+		C85F4F4415A7761F00B8349C /* libSelectableMedia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSelectableMedia.a; sourceTree = "<group>"; };
+		C85F4F4515A7761F00B8349C /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		C85F4F4715A7761F00B8349C /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		C85F4F4815A7761F00B8349C /* IconPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconPlaceholder.png; sourceTree = "<group>"; };
+		C85F4F4915A7761F00B8349C /* LargePlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LargePlayButton.png; sourceTree = "<group>"; };
+		C85F4F4A15A7761F00B8349C /* PauseIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseIcon.png; sourceTree = "<group>"; };
+		C85F4F4B15A7761F00B8349C /* PlayIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayIcon.png; sourceTree = "<group>"; };
+		C85F4F4C15A7761F00B8349C /* RewindIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RewindIcon.png; sourceTree = "<group>"; };
+		C85F4F4D15A7761F00B8349C /* SelectableMedia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SelectableMedia.png; sourceTree = "<group>"; };
+		C85F4F4E15A7761F00B8349C /* ShareFacebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShareFacebook.png; sourceTree = "<group>"; };
+		C85F4F4F15A7761F00B8349C /* ShareTwitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShareTwitter.png; sourceTree = "<group>"; };
+		C85F4F5015A7761F00B8349C /* SmAdPlayerControllerView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmAdPlayerControllerView_iPad.xib; sourceTree = "<group>"; };
+		C85F4F5115A7761F00B8349C /* SmAdPlayerControllerView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmAdPlayerControllerView_iPhone.xib; sourceTree = "<group>"; };
+		C85F4F5215A7761F00B8349C /* SmGoldIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmGoldIcon.png; sourceTree = "<group>"; };
+		C85F4F5315A7761F00B8349C /* SmLandingPageViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmLandingPageViewController_iPad.xib; sourceTree = "<group>"; };
+		C85F4F5415A7761F00B8349C /* SmLandingPageViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmLandingPageViewController_iPhone.xib; sourceTree = "<group>"; };
+		C85F4F5515A7761F00B8349C /* SmSoundOnIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmSoundOnIcon.png; sourceTree = "<group>"; };
+		C85F4F5615A7761F00B8349C /* SmUserSurveyViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmUserSurveyViewController_iPad.xib; sourceTree = "<group>"; };
+		C85F4F5715A7761F00B8349C /* SmUserSurveyViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmUserSurveyViewController_iPhone.xib; sourceTree = "<group>"; };
+		C85F4F5815A7761F00B8349C /* SmVideoPlayerViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmVideoPlayerViewController_iPad.xib; sourceTree = "<group>"; };
+		C85F4F5915A7761F00B8349C /* SmVideoPlayerViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmVideoPlayerViewController_iPhone.xib; sourceTree = "<group>"; };
+		C85F4F5A15A7761F00B8349C /* SoundOffIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SoundOffIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,7 +322,7 @@
 				AC1AD534139D3CA7008B2FA1 /* OpenAL.framework in Frameworks */,
 				AC1AD538139D3CB0008B2FA1 /* AVFoundation.framework in Frameworks */,
 				AC1AD53C139D3CB6008B2FA1 /* AudioToolbox.framework in Frameworks */,
-				AC6C16001593DFC000637635 /* libSelectableMedia.a in Frameworks */,
+				C85F4F5B15A7761F00B8349C /* libSelectableMedia.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,8 +355,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				AC6C15FF1593DFC000637635 /* libSelectableMedia.a */,
-				AC000E9D1587BCCE00591A7F /* selectable_media_ios_sdk */,
+				C85F4F3D15A7761F00B8349C /* selectable_media_ios_sdk */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -416,55 +415,6 @@
 				AC1AD53B139D3CB6008B2FA1 /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AC000E9D1587BCCE00591A7F /* selectable_media_ios_sdk */ = {
-			isa = PBXGroup;
-			children = (
-				AC000E9F1587BCCE00591A7F /* include */,
-				AC000EA61587BCCE00591A7F /* README.markdown */,
-				AC000EA71587BCCE00591A7F /* resources */,
-			);
-			path = selectable_media_ios_sdk;
-			sourceTree = "<group>";
-		};
-		AC000E9F1587BCCE00591A7F /* include */ = {
-			isa = PBXGroup;
-			children = (
-				AC000EA01587BCCE00591A7F /* SelectableMedia.h */,
-				AC000EA11587BCCE00591A7F /* SmConfig.h */,
-				AC000EA21587BCCE00591A7F /* SmServerAPIDelegate.h */,
-				AC000EA31587BCCE00591A7F /* SmSymbiont.h */,
-				AC000EA41587BCCE00591A7F /* SmSymbiontDelegate.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		AC000EA71587BCCE00591A7F /* resources */ = {
-			isa = PBXGroup;
-			children = (
-				AC000EA81587BCCE00591A7F /* FBDialog.bundle */,
-				AC000EA91587BCCE00591A7F /* IconPlaceholder.png */,
-				AC000EAA1587BCCE00591A7F /* LargePlayButton.png */,
-				AC000EAB1587BCCE00591A7F /* PauseIcon.png */,
-				AC000EAC1587BCCE00591A7F /* PlayIcon.png */,
-				AC000EAD1587BCCE00591A7F /* RewindIcon.png */,
-				AC000EAE1587BCCE00591A7F /* SelectableMedia.png */,
-				AC000EAF1587BCCE00591A7F /* ShareFacebook.png */,
-				AC000EB01587BCCE00591A7F /* ShareTwitter.png */,
-				AC000EB11587BCCE00591A7F /* SmAdPlayerControllerView_iPad.xib */,
-				AC000EB21587BCCE00591A7F /* SmAdPlayerControllerView_iPhone.xib */,
-				AC000EB31587BCCE00591A7F /* SmGoldIcon.png */,
-				AC000EB41587BCCE00591A7F /* SmLandingPageViewController_iPad.xib */,
-				AC000EB51587BCCE00591A7F /* SmLandingPageViewController_iPhone.xib */,
-				AC000EB61587BCCE00591A7F /* SmSoundOnIcon.png */,
-				AC000EB71587BCCE00591A7F /* SmUserSurveyViewController_iPad.xib */,
-				AC000EB81587BCCE00591A7F /* SmUserSurveyViewController_iPhone.xib */,
-				AC000EB91587BCCE00591A7F /* SmVideoPlayerViewController_iPad.xib */,
-				AC000EBA1587BCCE00591A7F /* SmVideoPlayerViewController_iPhone.xib */,
-				AC000EBB1587BCCE00591A7F /* SoundOffIcon.png */,
-			);
-			path = resources;
 			sourceTree = "<group>";
 		};
 		AC4FB6DC13B8CFE6001182C8 /* Sparrow */ = {
@@ -609,6 +559,56 @@
 			name = iPad;
 			sourceTree = "<group>";
 		};
+		C85F4F3D15A7761F00B8349C /* selectable_media_ios_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				C85F4F3E15A7761F00B8349C /* include */,
+				C85F4F4415A7761F00B8349C /* libSelectableMedia.a */,
+				C85F4F4515A7761F00B8349C /* README.markdown */,
+				C85F4F4615A7761F00B8349C /* resources */,
+			);
+			path = selectable_media_ios_sdk;
+			sourceTree = "<group>";
+		};
+		C85F4F3E15A7761F00B8349C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C85F4F3F15A7761F00B8349C /* SelectableMedia.h */,
+				C85F4F4015A7761F00B8349C /* SmConfig.h */,
+				C85F4F4115A7761F00B8349C /* SmServerAPIDelegate.h */,
+				C85F4F4215A7761F00B8349C /* SmSymbiont.h */,
+				C85F4F4315A7761F00B8349C /* SmSymbiontDelegate.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C85F4F4615A7761F00B8349C /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				C85F4F4715A7761F00B8349C /* FBDialog.bundle */,
+				C85F4F4815A7761F00B8349C /* IconPlaceholder.png */,
+				C85F4F4915A7761F00B8349C /* LargePlayButton.png */,
+				C85F4F4A15A7761F00B8349C /* PauseIcon.png */,
+				C85F4F4B15A7761F00B8349C /* PlayIcon.png */,
+				C85F4F4C15A7761F00B8349C /* RewindIcon.png */,
+				C85F4F4D15A7761F00B8349C /* SelectableMedia.png */,
+				C85F4F4E15A7761F00B8349C /* ShareFacebook.png */,
+				C85F4F4F15A7761F00B8349C /* ShareTwitter.png */,
+				C85F4F5015A7761F00B8349C /* SmAdPlayerControllerView_iPad.xib */,
+				C85F4F5115A7761F00B8349C /* SmAdPlayerControllerView_iPhone.xib */,
+				C85F4F5215A7761F00B8349C /* SmGoldIcon.png */,
+				C85F4F5315A7761F00B8349C /* SmLandingPageViewController_iPad.xib */,
+				C85F4F5415A7761F00B8349C /* SmLandingPageViewController_iPhone.xib */,
+				C85F4F5515A7761F00B8349C /* SmSoundOnIcon.png */,
+				C85F4F5615A7761F00B8349C /* SmUserSurveyViewController_iPad.xib */,
+				C85F4F5715A7761F00B8349C /* SmUserSurveyViewController_iPhone.xib */,
+				C85F4F5815A7761F00B8349C /* SmVideoPlayerViewController_iPad.xib */,
+				C85F4F5915A7761F00B8349C /* SmVideoPlayerViewController_iPhone.xib */,
+				C85F4F5A15A7761F00B8349C /* SoundOffIcon.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -679,27 +679,27 @@
 				AC3737A613A01F120043D24A /* close_small.png in Resources */,
 				AC4FB63C13B29BB9001182C8 /* Icon.png in Resources */,
 				ACE5122A1496BBC0004F554E /* MainWindow-iPad.xib in Resources */,
-				AC000EBE1587BCCE00591A7F /* README.markdown in Resources */,
-				AC000EBF1587BCCE00591A7F /* FBDialog.bundle in Resources */,
-				AC000EC01587BCCE00591A7F /* IconPlaceholder.png in Resources */,
-				AC000EC11587BCCE00591A7F /* LargePlayButton.png in Resources */,
-				AC000EC21587BCCE00591A7F /* PauseIcon.png in Resources */,
-				AC000EC31587BCCE00591A7F /* PlayIcon.png in Resources */,
-				AC000EC41587BCCE00591A7F /* RewindIcon.png in Resources */,
-				AC000EC51587BCCE00591A7F /* SelectableMedia.png in Resources */,
-				AC000EC61587BCCE00591A7F /* ShareFacebook.png in Resources */,
-				AC000EC71587BCCE00591A7F /* ShareTwitter.png in Resources */,
-				AC000EC81587BCCE00591A7F /* SmAdPlayerControllerView_iPad.xib in Resources */,
-				AC000EC91587BCCE00591A7F /* SmAdPlayerControllerView_iPhone.xib in Resources */,
-				AC000ECA1587BCCE00591A7F /* SmGoldIcon.png in Resources */,
-				AC000ECB1587BCCE00591A7F /* SmLandingPageViewController_iPad.xib in Resources */,
-				AC000ECC1587BCCE00591A7F /* SmLandingPageViewController_iPhone.xib in Resources */,
-				AC000ECD1587BCCE00591A7F /* SmSoundOnIcon.png in Resources */,
-				AC000ECE1587BCCE00591A7F /* SmUserSurveyViewController_iPad.xib in Resources */,
-				AC000ECF1587BCCE00591A7F /* SmUserSurveyViewController_iPhone.xib in Resources */,
-				AC000ED01587BCCE00591A7F /* SmVideoPlayerViewController_iPad.xib in Resources */,
-				AC000ED11587BCCE00591A7F /* SmVideoPlayerViewController_iPhone.xib in Resources */,
-				AC000ED21587BCCE00591A7F /* SoundOffIcon.png in Resources */,
+				C85F4F5C15A7761F00B8349C /* README.markdown in Resources */,
+				C85F4F5D15A7761F00B8349C /* FBDialog.bundle in Resources */,
+				C85F4F5E15A7761F00B8349C /* IconPlaceholder.png in Resources */,
+				C85F4F5F15A7761F00B8349C /* LargePlayButton.png in Resources */,
+				C85F4F6015A7761F00B8349C /* PauseIcon.png in Resources */,
+				C85F4F6115A7761F00B8349C /* PlayIcon.png in Resources */,
+				C85F4F6215A7761F00B8349C /* RewindIcon.png in Resources */,
+				C85F4F6315A7761F00B8349C /* SelectableMedia.png in Resources */,
+				C85F4F6415A7761F00B8349C /* ShareFacebook.png in Resources */,
+				C85F4F6515A7761F00B8349C /* ShareTwitter.png in Resources */,
+				C85F4F6615A7761F00B8349C /* SmAdPlayerControllerView_iPad.xib in Resources */,
+				C85F4F6715A7761F00B8349C /* SmAdPlayerControllerView_iPhone.xib in Resources */,
+				C85F4F6815A7761F00B8349C /* SmGoldIcon.png in Resources */,
+				C85F4F6915A7761F00B8349C /* SmLandingPageViewController_iPad.xib in Resources */,
+				C85F4F6A15A7761F00B8349C /* SmLandingPageViewController_iPhone.xib in Resources */,
+				C85F4F6B15A7761F00B8349C /* SmSoundOnIcon.png in Resources */,
+				C85F4F6C15A7761F00B8349C /* SmUserSurveyViewController_iPad.xib in Resources */,
+				C85F4F6D15A7761F00B8349C /* SmUserSurveyViewController_iPhone.xib in Resources */,
+				C85F4F6E15A7761F00B8349C /* SmVideoPlayerViewController_iPad.xib in Resources */,
+				C85F4F6F15A7761F00B8349C /* SmVideoPlayerViewController_iPhone.xib in Resources */,
+				C85F4F7015A7761F00B8349C /* SoundOffIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
